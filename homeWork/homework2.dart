@@ -24,7 +24,7 @@
 
 // void main() {
 //   Map siraNo = {"gizem": "one", "çağla": "two", "mert": "three"};
-//   var guncelSiraNo = siraNo.map((k, v) {
+//   var guncelSiraNo = siraNo.map((k, v) {//Güncel sıra no yeni oluşturacağımız mape verdiğimiz isim k ve v anahtar kelime ve onun valuesi ikisinide büyük harf istediğimiz için büyük harfle yazıyoruz.
 //     return MapEntry(k.toUpperCase(), v.toUpperCase());
 //   });
 //   print(guncelSiraNo);
