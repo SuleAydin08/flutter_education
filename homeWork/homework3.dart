@@ -1,5 +1,15 @@
 //1-)Bir mapteki değerleri toplayın ve toplamı ekrana yazdırın.-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+// void main() {
+//    Map<String, int> notes = {
+//     "Ayşe": 10,
+//     "Fatma": 20,
+//     "Hayriye": 30
+//   };
+//   int gradeTotal = 10 + 20 + 30;
+//   print(gradeTotal);
+// }//60
+
 //2-)Bir koşul ifadesi kullanarak bir sayının pozitif,negatif veya sıfır olduğunu kontrol edin ve bunu ekrana yazdırın. Bir sayı diye belirtilen sayı -5 olsun bu sayının tüm üstte yazılan koşullarını yazıp ekrana yazdır.
 
 // void main() {
@@ -76,13 +86,7 @@
 //   print(sehirler);
 // }//{İstanbul, Ankara, İzmir, Artvin}//Dikkat edersek burda set kullandığımız için tekrar etmedi.
 
-// 3.Dart'ta "assert" ifadesi nedir ve ne zaman kullanılır.---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-//"assert" operatörü, Dart dilinde bir koşulun doğru olduğunu test etmek için kullanılır.
-//Eğer koşul doğru değilse, bir "AssertionError" atar ve kodun çalışması durur.
-//"assert" operatörü, genellikle test ve debug amaçlı kullanılır ve çalışma zamanında kapatılabilir.
-
-// 4.Dart'ta "async" ve "await" anahtar kelimelerinin kullanımı hakkında ne biliyorsunuz. Bir örnek verin.----------------------------------------------------------------------------------------------------------------
+// 3.Dart'ta "async" ve "await" anahtar kelimelerinin kullanımı hakkında ne biliyorsunuz. Bir örnek verin.----------------------------------------------------------------------------------------------------------------
 
 //Programda belirli bir fonksiyonun işinini bitirmesini bekle demek istediğimizde await kullanırız ve await kullandığımız her yerde async kullanmak zorundayız hata verir.
 
@@ -120,3 +124,9 @@
 // 5.Dart'ta "extension" lar nedir ve nasıl kullanılır.Bir örnek verin.---------------------------------------------------------------------------------------------------------------------------------------------------
 
 //Extension'lar, mevcut sınıflara veya türlere istediğimiz ek özellikleri eklememize olanak tanır.
+
+// void main() {
+//   List<String> isimler = ["Gürkan","Cansever","Hatice","Metin","Okan","Acar","Emirhan"];
+//   print(isimler.reversed);//Burda yaptığımız şey aslında extension eklemektir.
+// }
+//(Emirhan, Acar, Okan, Metin, Hatice, Cansever, Gürkan)
