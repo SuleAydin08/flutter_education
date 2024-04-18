@@ -80,3 +80,19 @@
 //   }
 //  }//Script error
 
+// void main() {
+  
+//   Map<String, dynamic> hotels = {
+//     "hotel1": "Victoria",
+//     "information1": ["5", "Bıldırcın Sokok"],
+//     "hotel2": "Rixos",
+//     "information2": ["4", "Akpınar Sokok"],
+//     "hotel3": "Lake",
+//     "information3": ["4", "Buluş Sokok"],
+   
+//   };
+ 
+//    print(hotel3.values);
+// }//Script error
+
+
